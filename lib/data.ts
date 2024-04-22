@@ -2,9 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import springbootImg from "@/public/spring-boot.jpg";
+import mealMateImg from "@/public/mealmate.jpg";
 import swiftschedulerImg from "@/public/swift-scheduler.jpg";
 
 export const links = [
@@ -57,7 +56,7 @@ export const experiencesData = [
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2018 - present",
   },
 ] as const;
 
@@ -65,23 +64,23 @@ export const projectsData = [
   {
     title: "Swift Scheduler",
     description:
-      "A scheduler web app using MERN stack, it has features like admin panel, full CRUD operations for classes+clasrooms, teachers+students registeation and searching events, teacher+class ratings, calander view.",
-    tags: ["React", "Node.js", "Express", "MongoDB", "Tailwind", "Github", "Render", "Vercel"],
+      "A  class schedule web app devloped with MERN Stack, built to help teachers post classes and allowed registered students with profiles and tokens to join rated classes.",
+    tags: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB",  "Github", "Cloud hosting", "CORS", "JWT"],
     imageUrl: swiftschedulerImg,
   },
   {
-    title: "rmtDev",
+    title: "Java Mircoservices",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    "Built with java springboot backends each with individual databases (NoSQL/SQL),parent project with each service & db running docker images on AWS.",
+    tags: ["Mongodb", "Postgres", "Java", "Docker", "Keycloak", "AWS"],
+    imageUrl: springbootImg,
   },
   {
-    title: "Word Analytics",
+    title: "Meal Mate Mobile App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Cross-platform built with ReactNative, allowing user to search and review local restaurants and order food online, based on google API's and google reviews.",
+    tags: ["Mobile APP", "React Native", "One Code base","cross-platform", "iOS", "Android", "Web",],
+    imageUrl: mealMateImg,
   },
 ] as const;
 
@@ -113,5 +112,10 @@ export const skillsData = [
   "Github",
   "Git",
   "Docker",
-  "Linux",
+  "iOS",
+  "Android",
+  "React Native",
+  "Flutter",
+  "Machine Learning",
+  "Data Analytics",
 ] as const;
