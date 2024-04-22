@@ -49,7 +49,7 @@ export const experiencesData = [
     description:
     "I served as a Maître'd at ScotiaBank Arena (formerly known as ACC) with Pinnacle Caterers, managing MLSE's executive suites.",
     icon: React.createElement(CgWorkAlt),
-    date: "2017 - 2024",
+    date: "2017 - present",
   },
   {
     title: "Full-Stack Developer",
@@ -57,7 +57,7 @@ export const experiencesData = [
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - 2024",
+    date: "2021 - present",
   },
 ] as const;
 

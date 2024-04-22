@@ -21,32 +21,31 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Graduate of a comprehensive three-year advanced diploma program in{" "}
-        <span className="font-medium">Computer Programming and Analysis</span>,
-        acquired a solid foundation in programming and IT analysis, preparing
-        for a career in the dynamic and evolving world of IT. Gained hard and
-        soft skills necessary for software application development and testing
-        in the first two years. The final year focused on developing advanced
-        technical abilities, communication, teamwork, and client service
-        skills.
+        Graduated from a comprehensive three-year advanced diploma program in{" "}
+        <span className="font-medium">Computer Programming and Analysis</span>.
+        I acquired a solid foundation in programming and IT analysis, preparing
+        me for a career in the dynamic and evolving world of IT. In the first
+        two years, I gained hard and soft skills necessary for software
+        application development and testing. The final year focused on
+        developing advanced technical abilities, communication, teamwork, and
+        client service skills.
       </p>
 
       <p className="mb-3">
-        Graduate of a comprehensive three-year advanced diploma program in{" "}
-        <span className="font-medium">Computer Programming and Analysis</span>,
-        Ready to apply these skills in roles such as database
-        administration, systems analysis and design, application design and
-        development, web application design and development, data architect,
-        full-stack developer, and mobile application developer.
+        Equipped with skills from my education, I am ready to apply them in
+        roles such as database administration, systems analysis and design,
+        application design and development, web application design and
+        development, data architect, full-stack developer, and mobile
+        application developer.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and enjoying nature. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play to play squash and badmintion.
+        video games, watching movies, and spending time in nature. Additionally,
+        I thrive on <span className="font-medium">learning new things</span>. At
+        the moment, I'm delving into the realms of{" "}
+        <span className="font-medium">history and philosophy</span>, while also
+        honing my skills in sports like squash and badminton.
       </p>
     </motion.section>
   );
