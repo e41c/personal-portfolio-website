@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import swiftschedulerImg from "@/public/swift-scheduler.jpg";
 
 export const links = [
   {
@@ -62,11 +63,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Swift Scheduler",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A scheduler web app using MERN stack, it has features like admin panel, full CRUD operations for classes+clasrooms, teachers+students registeation and searching events, teacher+class ratings, calander view.",
+    tags: ["React", "Node.js", "Express", "MongoDB", "Tailwind", "Github", "Render", "Vercel"],
+    imageUrl: swiftschedulerImg,
   },
   {
     title: "rmtDev",
@@ -103,17 +104,14 @@ export const skillsData = [
    "MongoDB",
   "Python",
   "Django",
+  "Mirco-services",
   "C#",
   "ASP.NET",
   "Java",
   "Springboot",
-  "Mirco-services",
   "Vercel",
-  "Github Actions",
   "Github",
   "Git",
   "Docker",
-  "AWS",
   "Linux",
-  
 ] as const;
